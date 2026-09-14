@@ -9,7 +9,7 @@ function roll_dice(){
         let value=Math.floor((Math.random()*6)+1);
         values.push(value);
         console.log(value);
-        images.push(`<img src="dice/${value}.png" alt="Dice">`);
+        images.push(`<img src="https://raw.githubusercontent.com/harshitfarkare2024-art/PROJECTS/main/Project%201:%20Dice%20Roll/dice/dice-${value}.svg" alt="Dice ${value}" style="width: 100px; height: 100px; margin: 10px;">`);
     }
     diceImages.innerHTML=images.join(' ');
 }
